@@ -10,11 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	// golang.org/x/crypto/acme uses context features from Go 1.7 but
-	// AppEngine is still on Go 1.6 as of 2017-06-15.
-	// The following package is a fork with a compatibility patch for Go 1.6.
-	// It can be removed once AppEngine updates to Go 1.7 or above.
-	"github.com/StalkR/golang-crypto/acme"
+	"golang.org/x/crypto/acme"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/memcache"
