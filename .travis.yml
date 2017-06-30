@@ -9,7 +9,7 @@ before_install:
 
 install:
   # Fake app.yaml to force Go 1.8 as default is still 1.6
-  - "echo -e 'runtime: go\napi_version: go1.8\nhandlers:\n- url: /.*\n  script: _go_app' > app.yaml"
+  - "echo -e 'runtime: go\\napi_version: go1.8\\nhandlers:\\n- url: /.*\\n  script: _go_app' > app.yaml"
   - $HOME/go_appengine/goapp get -t -v ./...
   - $HOME/go_appengine/goapp build -v ./...
 
