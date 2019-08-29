@@ -1,6 +1,7 @@
 package aeletsencrypt
 
 import (
+	"context"
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/x509"
@@ -11,7 +12,6 @@ import (
 	"time"
 
 	"golang.org/x/crypto/acme"
-	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/memcache"
 	"google.golang.org/appengine/urlfetch"

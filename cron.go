@@ -1,12 +1,12 @@
 package aeletsencrypt
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 	"strings"
 	"time"
 
-	"golang.org/x/net/context"
 	"golang.org/x/oauth2/google"
 	api "google.golang.org/api/appengine/v1beta"
 	"google.golang.org/appengine"
