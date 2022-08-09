@@ -5,8 +5,10 @@
 Package aeletsencrypt automatically manages [Let's Encrypt][5] certificates
 for a Google AppEngine application with custom domains.
 
-[1]: https://api.travis-ci.org/StalkR/aeletsencrypt.png?branch=master
-[2]: https://travis-ci.org/StalkR/aeletsencrypt
+It should not be needed anymore because AppEngine offers this feature.
+
+[1]: https://github.com/StalkR/aeletsencrypt/actions/workflows/build.yml/badge.svg
+[2]: https://github.com/StalkR/aeletsencrypt/actions/workflows/build.yml
 [3]: https://godoc.org/github.com/StalkR/aeletsencrypt?status.png
 [4]: https://godoc.org/github.com/StalkR/aeletsencrypt
 [5]: https://letsencrypt.org
