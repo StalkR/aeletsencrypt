@@ -1,3 +1,6 @@
+**Project read-only: no longer maintained as it should not be needed anymore
+now that AppEngine offers this feature.**
+
 # AppEngine Let's Encrypt for custom domains
 
 [![Build Status][1]][2] [![Godoc][3]][4]
